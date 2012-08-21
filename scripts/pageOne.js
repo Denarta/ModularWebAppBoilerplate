@@ -23,7 +23,7 @@ define(["jQuery", "Handlebars", "text!templates/pageOne.html", "text!templates/s
         // here we require the GMaps library and then we show the map
         require(["async!http://maps.googleapis.com/maps/api/js?key=AIzaSyAdSD7v00gUN3yuCLc1TBbI9Nl1gJfma8U&sensor=true!callback"], function() {
             var myOptions = {
-                center: new google.maps.LatLng(51.538, -0.142),
+                center: new google.maps.LatLng(42.349, 13.398),
                 zoom: 15,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 disableDefaultUI: true
