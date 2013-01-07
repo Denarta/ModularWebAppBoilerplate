@@ -5,7 +5,7 @@ An extremely simple (mobile) web app that can be used as boilerplate for web app
 
 Basically, the web app is composed of two nested views (represented as different Handlebars templates), backed by a Javascript module defined using Require.js. jQuery is used as a convenience library, it can be substituted by more mobile-friendly libraries like Zepto. 
 
-The web app is purposegully super-simple, it shows:
+The web app is purposefully super-simple, it shows:
 
 * a string that can be filled dynamically by the Javascript module
 * a set of links which are dynamically filled by the first Javascript module too
